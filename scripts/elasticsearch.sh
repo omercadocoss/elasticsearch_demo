@@ -17,3 +17,4 @@ type=rpm-md" >> /etc/yum.repos.d/elasticsearch.repo
 fi
 
 yum -y install elasticsearch
+service elasticsearch start
