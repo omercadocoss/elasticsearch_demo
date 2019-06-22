@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="35f28aeb-a0fe-47de-8541-c125537f039d" name="DEV - Meetup" url="http://ec2-3-87-22-66.compute-1.amazonaws.com">
+        <fileTransfer host="ec2-3-87-22-66.compute-1.amazonaws.com" port="22" privateKey="C:\personal\Meetup\Meetup - 10mo\ec2-qrodevs.ppk" rootFolder="/var/www/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

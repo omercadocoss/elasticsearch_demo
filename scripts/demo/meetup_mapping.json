@@ -1,0 +1,44 @@
+{
+  "mappings": {
+    "properties": {
+      "apellido": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "email": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "edad": {
+        "type": "long"
+      },
+      "email_alterno": {
+        "type": "text",
+        "analyzer": "standard"
+      },
+      "apodos": {
+        "type": "text",
+        "analyzer": "standard"
+      },
+      "nombre": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      }
+    }
+  }
+}

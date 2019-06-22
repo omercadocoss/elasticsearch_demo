@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/elasticsearch_demo":{"create":true,"guestpath":"/var/www/elasticsearch_demo","hostpath":"C:/projects/elasticsearch_demo","disabled":false,"__vagrantfile":true}}}

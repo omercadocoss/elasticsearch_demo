@@ -1,0 +1,48 @@
+{
+  "meetup": {
+    "aliases": {},
+    "mappings": {
+      "properties": {
+        "apellido": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "email": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "nombre": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        }
+      }
+    },
+    "settings": {
+      "index": {
+        "creation_date": "1556209036142",
+        "number_of_shards": "1",
+        "number_of_replicas": "1",
+        "uuid": "EQ0lMyJpS9quRK6RK3UHaA",
+        "version": {
+          "created": "7000099"
+        },
+        "provided_name": "meetup"
+      }
+    }
+  }
+}
